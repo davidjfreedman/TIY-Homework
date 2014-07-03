@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: monospace;
+}
+.profileBox {
+    width: 600px;
+    max-height: 800px;
+    border-radius: 30px;
+    background-color: grey;
+    margin: 50px auto;
+    padding-bottom: 20px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(206, 220, 231, 1)), color-stop(100%, rgba(89, 106, 114, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(206, 220, 231, 1) 0%, rgba(89, 106, 114, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+}
+.topHalf {
+    background-image: url(http://sleepycity.net/index/d71632435841ae0bbaef2ce5dcde4d50.jpg);
+    background-size: cover;
+    margin: 0;
+    border-radius: 30px 30px 20% 20%;
+}
+.imgBox {
+    width: 100%;
+    min-height: 300px;
+    background-image: url(http://www.amhersthousebandb.com/communities/8/004/011/736/428//images/4589858848.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    -webkit-transform: translateY(0px);
+    color: lightgrey;
+}
+.profileBox img {
+    border-radius: 100px;
+    width: 200px;
+    border: 2px double white;
+    -webkit-transform: translateY(22px);
+}
+.textBox {
+    margin: 20px;
+}
+.profileBox ul {
+    font-size: 1.5em;
+}

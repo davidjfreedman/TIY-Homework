@@ -1,0 +1,49 @@
+<!-- Using the example done in class:
+
+change the username to your account,
+customize the CSS,
+and add atleast 5 more pieces of information to the <ul> -->
+
+<html>
+
+<head>
+    <link href="profilestyles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="destination"></div>
+        <script type="MeltedKeya" id="getProfileBox"> <!-- neeeeeed to have type! it prevents the script from running -->
+
+    <div class="profileBox">
+    <div class="topHalf">
+        <div class="imgBox">
+            <img src="https://avatars.githubusercontent.com/u/7834639?"><br><br><br>
+            <p><h2>@<%= login %></h2></p>
+        </div></div>
+        <div class="textBox"><ul>
+            <li>Name: <%= name %></li>
+            <li>Github Prisoner# <%= id %>
+            </li>
+            <li>Company: ***CLASSIFIED***</li>
+            <li>Position: <%= hireable %>
+            </li>
+            <li>Weapon: <%= bio %></li>
+            <li>Loves: <%= test %></li>
+            <li>Weakness: <%= company %></li>
+            <li>Blog: <a href="<%= blog %>"><%= blog %></a>
+            </li>
+            <li>Last known Location: <%= location %></li>
+            <li>Email: <%= email %></li>
+        </ul></div>
+
+
+    </div>
+    </script>
+    <script src='
+    http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+    <script src='./profilejs.js'></script>
+
+</body>
+
+</html>
